@@ -1,81 +1,87 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <style>
-            html{
-                scroll-behavior: smooth;
-            }
-            
-            body{
-                padding-top: 55px;
-            }
-            h1{
-                padding-top: 55px;
-            }
-            
-            #nav{
-                position: fixed;
-                background-color: white;
-                width: 100%;
-                padding: 20px;
-                top: 0;
-                text-align: left;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css" />
+        <title>murton</title>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     </head>
     <body>
-        
         <div id="nav">
-            <a href="#">HOME</a>
-            <a href="#cricket">CRICKET</a>
-            <a href="#rugby">RUGBY</a>
-            <a href="#soccer">SOCCER</a>
+            <div id="william"><a href="#">william.</a></div>
+            <div id="links">
+            <a href="#aboutme">about me</a> &#8226;
+            <a href="#education">education</a> &#8226;
+            <a href="#theatre">theatre credits</a> &#8226;
+            <a href="#favemusic">favourite music</a>
+            </div>
+        </div>
+
+        <div id="about_me" class="sections">
+            <h1>about me</h1>
+            <p>Hello, reader! My name is William and this is my brand-new website. This site will be filled with information that'll let you know a little bit about me, the things I am passionate about, and a few bops that keep me going throughout the day. I am an extroverted eighteen year old male with an undying love for my pal's, Dungeons and Dragons, board games, animation and visual effects, my animals, my family, musical theatre and visual design.</p> <p>Christchurch born, there was always a reason for me to be out and about, swimming and surfing, gaming with my friends, and rehearsing with companies for upcoming shows. In the spring months I usually spend some time skiing at Porter's, a few hours west of christchurch, with my dad and sisters. Oh yes, I am one of five siblings, smack bang in the middle of two older sisters and two younger brothers. Dream life, eh? Ha. My dog, Tessa, provides copious amounts of joy, laughing as she makes a fool of herself on the daily, and my two cats Kommett (we like to think he's Russian) and Ziggy (if you don't know who David Bowie is, we can't be friends. I'm sorry, It's personal).</p>
+            <p>Why this backdrop and theme? I'm glad you asked, my lovely reader. I say 'reader', for I do believe it would be awkward for me, a poor student, to refer to you by your real name. I do sincerely apologise... THEME. RIGHT. Autumn. It goes without saying, really, that autumn is my favourite season, closely . followed by winter. There's just something about the leaves that fall . from the trees, paired with the constant and unpredictable weather patterns that speak to me. It's probably . because I'm a Leo. That's okay, though, for my life is usually built on irrational choices, trusting my instincts, and not thinking before I speak. I'll learn one day... I hope.</p><p>Well I do believe that is quite enough about my random personal life, let's crack on with the exciting elements of this page. Here we go!
+            <div class="gallery">
+                <a data-fancybox="gallery"  href="img/archery.jpg">
+                    <img src="img/archerysmall.jpg" class="images" height=130px/>
+                </a>
+                <a data-fancybox="gallery" href="img/heelsbig.png">
+                    <img src="img/heelssmall.jpg" class="images" height=130px/>
+                </a>
+                <a data-fancybox="gallery" href="img/airport.jpg">
+                    <img src="img/airportsmall.jpg" class="images" height=130px/>
+                </a>
+                <a data-fancybox="gallery" href="img/freinds.jpg">
+                    <img src="img/freindssmall.jpg" class="images" height=130px/>
+                </a>                
+                <a data-fancybox="gallery" href="img/tessabig.png">
+                    <img src="img/tessasmall.png" class="images" height=130px/>
+                </a>                    
+                <a data-fancybox="gallery" href="img/tessahugbig.png">
+                    <img src="img/tessahugsmall.png" class="images" height=130px/>
+                </a>
+            </div>
+        </div>
+        
+        <div id="education" class="sections">
+            <h1>Dungeons and Dragons</h1>
+            Eos et accusata dissentias, an saperet expetenda nec, id vim facer tractatos interpretaris. Duo feugiat incorrupte eu. Quem nibh dissentiet mel eu, his an inimicus efficiantur, vidit inimicus et mel. Vivendo verterem quaerendum et vim. Et corpora mediocrem vis, ei quando docendi eam, eos ut quis sadipscing. Per tation prodesset et, ne quo quod facilisis, timeam albucius scaevola an nam.
+        </div>
+        
+        <div id="theatre" class="sections">
+            <h1>theatre credits</h1>
+            Sed debet docendi no, est cu libris semper, an vel persius graecis. Insolens tractatos id usu, ut iriure expetenda cum. Debitis scriptorem vis ut. Case essent necessitatibus vim ex, per magna petentium cu. Nam ea vocent postulant, eos erat integre iudicabit no, no vel verear splendide liberavisse.
+
+            Assum eloquentiam ad nec, pri putent noster at. Eu has prima altera explicari, per ne idque graece eruditi. Sed officiis recteque ea, vel eligendi signiferumque ut, mei ne natum nulla. Mutat salutandi accommodare mea ei.
+
+            Nam cibo veniam definitionem ea. Has nibh impedit cu, vim saepe homero.
+        </div>
+        
+        <div id="favemusic" class="sections">
+            <h1>favourite music</h1>
+            Vivendo verterem quaerendum et vim. Et corpora mediocrem vis, ei quando docendi eam, eos ut quis sadipscing. Per tation prodesset et, ne quo quod facilisis, timeam albucius scaevola an nam.
+
+            Sed debet docendi no, est cu libris semper, an vel persius graecis. Insolens tractatos id usu, ut iriure expetenda cum. Debitis scriptorem vis ut. Case essent necessitatibus vim ex, per magna petentium cu. Nam ea vocent postulant, eos erat integre iudicabit no, no vel verear splendide liberavisse.
+
+            Assum eloquentiam ad nec, pri putent noster at. Eu has prima altera explicari, per ne idque graece eruditi. Sed officiis recteque ea, vel eligendi signiferumque ut, mei ne natum nulla. Mutat salutandi accommodare mea ei.
+
+            Nam cibo veniam definitionem ea. Has nibh impedit cu, vim saepe homero appellantur eu. Ei malorum intellegat dissentiet ius. Ei petentium definitionem nec. Fugit definitionem eu nec, vix ut modus veniam iisque, persecuti scripserit referrentur mea cu. Ex dico scripta accommodare his, his dicam soleat verterem ad, atqui aperiri equidem vis an.platonem.
         </div>
         
         
-        <a data-fancybox="gallery" href="img/big_1.jpg">
-            <img src="img/small_1.jpg" />
-        </a>
-        
-        <a data-fancybox="gallery" href="img/big_2.jpg">
-            <img src="img/small_2.jpg" />
-        </a>
-        
-        <a data-fancybox="gallery" href="img/big_3.jpg">
-            <img src="img/small_3.jpg" />
-        </a>
-        
-        <a data-fancybox="gallery" href="img/big_4.jpg">
-            <img src="img/small_4.jpg" />
-        </a>
-        
-        <a data-fancybox="gallery" href="img/big_5.jpg">
-            <img src="img/small_5.jpg" />
-        </a>
-        
-        <h1 id="cricket">CRICKET</h1>
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br />
-        
-        <h1 id="rugby">RUGBY</h1>
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br />
-        
-        <h1 id="soccer">SOCCER</h1>
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> 
-        blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br /> blah blah blah<br />
-        
         
     </body>
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
