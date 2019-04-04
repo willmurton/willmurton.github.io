@@ -89,14 +89,14 @@ a{
 
 #footer{
     display: grid;
-    grid-template-columns: 33% 33% auto;    
+    grid-template-columns: 50% auto;    
 }
 #tori{
-    margin: 5px auto auto 5px;
-    padding:;
+    display: grid;
+    grid-template-columns: 62% 1fr;
 }
 #bottomlinks{
-    grid-column: 3/4;
+    grid-column: 2/3;
     text-align-last: right;
     margin: auto 10px auto auto;
     color: #C8CED4;
@@ -105,6 +105,7 @@ a{
 #namebottom{
     font-family: "Amatic SC", cursive;
     color: #C8CED4;
-    font-size: 30px;
-    margin: auto;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 10px;
 }
