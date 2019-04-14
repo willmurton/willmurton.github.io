@@ -70,6 +70,7 @@ a{
     max-width: 800px;
     margin: 5px auto;
     padding: 5px;
+    text-align: justify;
 }
 .images{
     border-radius: 15px;
@@ -108,4 +109,7 @@ a{
     font-size: 40px;
     text-align: left;
     margin-left: 10px;
+}
+.film{
+    text-align: center;
 }
